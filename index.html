@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Grupo Neovos - Conectamos empresas con capital y brókers con oportunidades. +30 años de experiencia en financiamiento empresarial."
+    />
+    <title>Grupo Neovos | Financiamiento Empresarial</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="Neovos.png" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="index.html" class="navbar-logo">
+          <img src="Neovos.png" alt="Grupo Neovos" />
+        </a>
+
+        <div class="navbar-menu" id="navMenu">
+          <ul class="navbar-links">
+            <li><a href="index.html" class="navbar-link active">Inicio</a></li>
+            <li><a href="empresas.html" class="navbar-link">Empresas</a></li>
+            <li><a href="brokers.html" class="navbar-link">Brókers</a></li>
+          </ul>
+
+          <div class="navbar-cta">
+            <a href="empresas.html#contacto" class="btn btn-primary"
+              >Solicitar Financiamiento</a
+            >
+          </div>
+        </div>
+
+        <button class="navbar-toggle" id="navToggle" aria-label="Menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero hero-home hero-centered">
+      <!-- Floating decorative gradient orbs -->
+      <div class="hero-decorations">
+        <div class="hero-gradient-orb orb-1"></div>
+        <div class="hero-gradient-orb orb-2"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content-centered" data-animate>
+          <span class="hero-badge">GRUPO NEOVOS</span>
+
+          <h1 class="hero-title-large">
+            Conectamos <span class="text-orange">empresas</span> con capital y
+            <span class="text-orange">brókers</span> con oportunidades.
+          </h1>
+
+          <p class="hero-description-centered">
+            Analizamos tu caso, estructuramos la solicitud y te conectamos con
+            las mejores opciones de crédito, factoraje y fondeo en México y el
+            extranjero.
+          </p>
+
+          <div class="hero-buttons-centered">
+            <a href="empresas.html" class="btn btn-primary btn-lg">
+              Soy Empresa
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="brokers.html" class="btn btn-outline btn-lg">
+              Soy Bróker
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+      <div class="container">
+        <div class="stats-grid-3">
+          <div class="stat-item-horizontal" data-animate>
+            <div class="stat-icon-circle">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
+            </div>
+            <div class="stat-content">
+              <div class="stat-value-light">
+                <span data-count="30" data-prefix="+">+0</span>
+                <span class="accent">Años</span>
+              </div>
+              <div class="stat-label-light">DE EXPERIENCIA FINANCIERA</div>
+            </div>
+          </div>
+          <div class="stat-item-horizontal" data-animate>
+            <div class="stat-icon-circle stat-icon-orange">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="stat-content">
+              <div class="stat-value-light">
+                Success <span class="accent">Fee</span>
+              </div>
+              <div class="stat-label-light">MODELO BASADO EN RESULTADOS</div>
+            </div>
+          </div>
+          <div class="stat-item-horizontal" data-animate>
+            <div class="stat-icon-circle">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <div class="stat-content">
+              <div class="stat-value-light">
+                <span data-count="20" data-prefix="+">+0</span>
+                <span class="accent">Aliados</span>
+              </div>
+              <div class="stat-label-light">BANCOS, FONDOS Y FINTECHS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiénes Somos Section -->
+    <section class="about-section bg-white">
+      <div class="container">
+        <div class="about-simple" data-animate>
+          <div class="about-content-centered">
+            <span class="section-label">¿Quiénes somos?</span>
+            <h2 class="section-title">
+              Impulsamos el <span class="text-orange">crecimiento</span> de tu
+              empresa con soluciones de
+              <span class="text-orange">financiamiento</span> a la medida
+            </h2>
+            <p class="about-description-centered">
+              Grupo Neovos es una firma especializada en soluciones de
+              financiamiento empresarial. Actuamos como
+              <strong>asesores financieros independientes</strong>, analizando
+              tu necesidad y conectándote con las mejores opciones de fondeo
+              disponibles en México y el extranjero.
+            </p>
+            <p class="about-description-centered">
+              A diferencia de un banco o financiera que solo vende sus propios
+              productos, nosotros buscamos entre todas las opciones del mercado
+              la que mejor se adapte a tu situación.
+              <strong>Nuestro único compromiso es contigo.</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section class="features-section bg-white">
+      <div class="container">
+        <div class="section-header text-center" data-animate>
+          <span class="section-label">Qué hacemos</span>
+          <h2 class="section-title">Tu aliado estratégico en financiamiento</h2>
+          <p class="section-subtitle centered">
+            No se trata solo de pedir un crédito. Se trata de saber cómo
+            presentarlo para que te lo otorguen.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card" data-animate>
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"
+                />
+                <rect x="9" y="3" width="6" height="4" rx="1" />
+                <path d="M9 12h6M9 16h6" />
+              </svg>
+            </div>
+            <h3 class="feature-title">Análisis y diagnóstico</h3>
+            <p class="feature-description">
+              Evaluamos tu situación financiera actual, identificamos
+              oportunidades y detectamos áreas de mejora para maximizar tus
+              posibilidades de éxito.
+            </p>
+          </div>
+
+          <div class="feature-card" data-animate>
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"
+                />
+                <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" />
+              </svg>
+            </div>
+            <h3 class="feature-title">Estructura y estrategia</h3>
+            <p class="feature-description">
+              Diseñamos la mejor estrategia de financiamiento, preparamos la
+              documentación necesaria y estructuramos tu solicitud de forma
+              profesional.
+            </p>
+          </div>
+
+          <div class="feature-card" data-animate>
+            <div class="feature-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+              </svg>
+            </div>
+            <h3 class="feature-title">Gestión y acompañamiento</h3>
+            <p class="feature-description">
+              Conectamos con nuestra red de fondeadores, gestionamos las
+              negociaciones y te acompañamos hasta obtener el financiamiento que
+              necesitas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-section">
+      <div class="container">
+        <div class="section-header text-center" data-animate>
+          <span class="section-label">Soluciones</span>
+          <h2 class="section-title">Financiamiento para cada necesidad</h2>
+          <p class="section-subtitle centered">
+            Ofrecemos una amplia gama de productos financieros para empresas de
+            todos los tamaños y sectores.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card" data-animate>
+            <div class="service-header">
+              <div class="service-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="2" y="5" width="20" height="14" rx="2" />
+                  <path d="M2 10h20" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="service-title">Crédito Simple y Línea Revolvente</h3>
+                <span class="service-subtitle"
+                  >Capital de trabajo y crecimiento</span
+                >
+              </div>
+            </div>
+            <p class="service-description">
+              Montos desde $500,000 hasta más de $50 millones de pesos. Plazos
+              de 12 a 60 meses con flexibilidad en uso y opciones con o sin
+              garantía.
+            </p>
+            <div class="service-features">
+              <span class="service-tag">$500K - $50M+</span>
+              <span class="service-tag">12-60 meses</span>
+              <span class="service-tag">Con/sin garantía</span>
+            </div>
+          </div>
+
+          <div class="service-card" data-animate>
+            <div class="service-header">
+              <div class="service-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"
+                  />
+                  <path d="M14 2v6h6" />
+                  <path d="M12 18v-6M9 15l3 3 3-3" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="service-title">
+                  Factoraje Nacional e Internacional
+                </h3>
+                <span class="service-subtitle">Liquidez inmediata</span>
+              </div>
+            </div>
+            <p class="service-description">
+              Obtén del 80% al 90% del valor de tus facturas con plazos
+              flexibles y respuesta rápida. Ideal para empresas que venden a
+              crédito o exportan.
+            </p>
+            <div class="service-features">
+              <span class="service-tag">80-90% adelanto</span>
+              <span class="service-tag">Respuesta rápida</span>
+              <span class="service-tag">Exportadores</span>
+            </div>
+          </div>
+
+          <div class="service-card" data-animate>
+            <div class="service-header">
+              <div class="service-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="2" y="7" width="20" height="14" rx="2" />
+                  <path d="M16 3v4M8 3v4M2 11h20" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="service-title">Arrendamiento Financiero</h3>
+                <span class="service-subtitle">Equipo y maquinaria</span>
+              </div>
+            </div>
+            <p class="service-description">
+              Adquiere maquinaria, equipo y flotillas sin descapitalizarte.
+              Esquemas flexibles que se adaptan a tu flujo de efectivo.
+            </p>
+            <div class="service-features">
+              <span class="service-tag">Maquinaria</span>
+              <span class="service-tag">Flotillas</span>
+              <span class="service-tag">Equipo</span>
+            </div>
+          </div>
+
+          <div class="service-card" data-animate>
+            <div class="service-header">
+              <div class="service-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                  <path d="M9 22V12h6v10" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="service-title">Créditos Puente e Inmobiliarios</h3>
+                <span class="service-subtitle">Proyectos y desarrollos</span>
+              </div>
+            </div>
+            <p class="service-description">
+              Financiamiento estructurado para desarrollos inmobiliarios,
+              proyectos de inversión y necesidades de capital a mediano plazo.
+            </p>
+            <div class="service-features">
+              <span class="service-tag">Desarrollos</span>
+              <span class="service-tag">Proyectos</span>
+              <span class="service-tag">Estructurado</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-3xl" data-animate>
+          <a href="empresas.html" class="btn btn-primary btn-lg">
+            Ver todas las soluciones
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who We Serve -->
+    <section class="cta-section bg-white">
+      <div class="container">
+        <div class="cta-box" data-animate>
+          <div class="cta-content">
+            <h2>Dos caminos claros</h2>
+            <p>
+              Ya sea que busques financiamiento para tu empresa o quieras
+              colaborar como bróker, tenemos un modelo diseñado para ti.
+            </p>
+            <a href="#" class="btn btn-white mt-xl">
+              Agenda una llamada
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+
+          <div class="cta-cards">
+            <a href="empresas.html" class="cta-card">
+              <div class="cta-card-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                  <path d="M9 22V12h6v10" />
+                </svg>
+              </div>
+              <h4>Empresas</h4>
+              <p>
+                Buscan crédito, factoraje, arrendamiento o reestructura de
+                deuda.
+              </p>
+            </a>
+
+            <a href="brokers.html" class="cta-card">
+              <div class="cta-card-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+                </svg>
+              </div>
+              <h4>Brókers</h4>
+              <p>
+                Quieren referir casos y compartir comisión de forma
+                transparente.
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- No sabes cual elegir - Bento Style -->
+    <section class="help-section bg-white">
+      <div class="container">
+        <div class="help-header" data-animate>
+          <span class="section-label">¿Necesitas orientación?</span>
+          <h2 class="section-title">
+            ¿No sabes cuál es la
+            <span class="text-orange">mejor opción</span> para ti?
+          </h2>
+          <p class="section-subtitle centered">
+            No te preocupes, no necesitas ser experto en finanzas.
+          </p>
+        </div>
+        <div class="bento-grid-3" data-animate>
+          <!-- Card 01 -->
+          <div class="bento-card bento-card-white">
+            <div class="bento-card-step">01</div>
+            <h4 class="bento-card-title-dark">
+              Analizamos tu <span class="text-orange">situación</span>
+            </h4>
+            <p class="bento-card-text-dark">
+              Revisamos tu empresa, operación y objetivos para entender
+              exactamente qué necesitas.
+            </p>
+            <ul class="bento-list">
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                  <path d="M22 4L12 14.01l-3-3" />
+                </svg>
+                Diagnóstico financiero
+              </li>
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                  <path d="M22 4L12 14.01l-3-3" />
+                </svg>
+                Revisión de buró
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 02 -->
+          <div class="bento-card bento-card-dark">
+            <div class="bento-card-step-light">02</div>
+            <h4 class="bento-card-title">
+              Identificamos <span class="text-orange">opciones</span>
+            </h4>
+            <p class="bento-card-text">
+              Determinamos el financiamiento más adecuado para tu giro y etapa
+              de crecimiento.
+            </p>
+            <ul class="bento-list-light">
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                  <path d="M22 4L12 14.01l-3-3" />
+                </svg>
+                +20 fondeadores
+              </li>
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                  <path d="M22 4L12 14.01l-3-3" />
+                </svg>
+                Mejores condiciones
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 03 -->
+          <div class="bento-card bento-card-orange">
+            <div class="bento-card-step-light">03</div>
+            <h4 class="bento-card-title">
+              Te <span style="color: white">acompañamos</span>
+            </h4>
+            <p class="bento-card-text">
+              Desde la primera llamada hasta la firma del contrato y disposición
+              del crédito.
+            </p>
+            <ul class="bento-list-white">
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                  <path d="M22 4L12 14.01l-3-3" />
+                </svg>
+                Sin burocracia
+              </li>
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                  <path d="M22 4L12 14.01l-3-3" />
+                </svg>
+                Solo resultados
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="text-center mt-3xl" data-animate>
+          <a href="empresas.html#contacto" class="btn btn-primary btn-lg">
+            Agenda una llamada
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-simple" data-animate>
+          <h2>¿Listo para encontrar el financiamiento ideal?</h2>
+          <p>
+            Agenda una llamada sin compromiso y descubre cómo podemos ayudarte a
+            obtener el financiamiento que tu empresa necesita o cómo puedes
+            escalar tu negocio como bróker aliado.
+          </p>
+          <div class="flex-center gap-md">
+            <a href="empresas.html#contacto" class="btn btn-primary btn-lg">
+              Soy Empresa
+            </a>
+            <a
+              href="brokers.html#contacto"
+              class="btn btn-outline btn-lg"
+              style="border-color: rgba(255, 255, 255, 0.3); color: white"
+            >
+              Soy Bróker
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <img src="Neovos.png" alt="Grupo Neovos" class="footer-logo" />
+            <p class="footer-description">
+              Conectamos empresas con capital y brókers con oportunidades. +30
+              años de experiencia en financiamiento empresarial.
+            </p>
+          </div>
+
+          <div class="footer-column">
+            <h4>Navegación</h4>
+            <ul class="footer-links">
+              <li><a href="index.html" class="footer-link">Inicio</a></li>
+              <li><a href="empresas.html" class="footer-link">Empresas</a></li>
+              <li><a href="brokers.html" class="footer-link">Brókers</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Soluciones</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="empresas.html" class="footer-link">Crédito Simple</a>
+              </li>
+              <li><a href="empresas.html" class="footer-link">Factoraje</a></li>
+              <li>
+                <a href="empresas.html" class="footer-link">Arrendamiento</a>
+              </li>
+              <li>
+                <a href="empresas.html" class="footer-link">Crédito Puente</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Contacto</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="empresas.html#contacto" class="footer-link"
+                  >Solicitar Financiamiento</a
+                >
+              </li>
+              <li>
+                <a href="brokers.html#contacto" class="footer-link"
+                  >Colaborar como Bróker</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <p class="footer-copyright">
+              © 2024 Grupo Neovos. Todos los derechos reservados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
